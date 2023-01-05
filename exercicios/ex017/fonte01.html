@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*SEMPRE USAR (PX e EM)
+            medidas absolutas
+            cm, mm, in, px, pt, pc
+
+            medidas relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente e 1em
+            */
+           /* font-size: ;
+            font-weight: ;
+            font-style: ;
+            text-decoration: ;*/
+            
+            /* lighter, normal, bolde, bolder*/ /* 100-900*/
+        }
+
+        h1 {
+            /*shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            
+            font-family: 'work sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;   */
+
+            font: italic bolder 3em 'work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'work sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim autem omnis totam ea! Suscipit consectetur, eius quam, laudantium cumque perferendis voluptates vel quisquam atque possimus, excepturi sit soluta magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem consequatur nostrum, impedit libero quia asperiores. Ipsam repellendus deleniti quod obcaecati doloribus. Fugiat libero dolores quasi quidem quaerat. Voluptas, omnis incidunt.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi iste odio earum soluta suscipit quia quae totam ipsam inventore! Aspernatur optio quia facere ut minima. Ea corrupti repellendus cupiditate temporibus?</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam rerum eveniet harum autem, illo ea perferendis exercitationem sed maxime neque fugit quasi repellendus recusandae maiores, asperiores ipsum commodi iste. Ullam.</p>
+</body>
+</html>
